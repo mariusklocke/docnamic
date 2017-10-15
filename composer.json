@@ -1,0 +1,27 @@
+{
+  "name": "mklocke/docnamic",
+  "type": "library",
+  "description": "The document template engine",
+  "keywords": ["ODT", "OpenDocument", "Templating"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marius Klocke",
+      "email": "marius.klocke@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Docnamic\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.6",
+    "ext-xml": "*",
+    "ext-zip": "*"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.0",
+    "phpmd/phpmd": "^2.6.0"
+  }
+}

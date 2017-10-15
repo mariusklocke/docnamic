@@ -1,0 +1,42 @@
+{
+  "organization": "Kwik-E-Mart",
+  "invoice": {
+    "number": "05-1234",
+    "date": "09/30/2017",
+    "dueDate": "10/30/2017",
+    "salesperson": "Apu Nahasapeemapetilon",
+    "payTerms": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+    "sum": "59.65 USD",
+    "shipping": "4.90 USD",
+    "total": "64.55 USD"
+  },
+  "customer": {
+    "name": "Homer Simpson",
+    "company": "",
+    "id": "CST99999",
+    "street": "742 Evergreen Terrace",
+    "zip": "00205",
+    "city": "Springfield",
+    "phone": "+1 111-234-5555"
+  },
+  "items": [
+    {
+      "qty": "1",
+      "description": "Beer",
+      "price": "9.95 USD",
+      "total": "9.95 USD"
+    },
+    {
+      "qty": "2",
+      "description": "Beer Beer",
+      "price": "8.95 USD",
+      "total": "17.90 USD"
+    },
+    {
+      "qty": "4",
+      "description": "Way more Beer",
+      "price": "7.95 USD",
+      "total": "31.80 USD"
+    }
+  ]
+}
